@@ -1,0 +1,66 @@
+body {
+	background: url(../img/pizza.jpg) center/cover no-repeat fixed;
+}
+#header {
+	font: bold 5em 'Anton', sans-serif;
+	text-align: center;
+	color: #42f4f1;
+	background-color: #e84040;
+	border-radius: 8px;
+	text-shadow: 1px 1px 8px #000;
+	border: 5px solid #000;
+}
+#size_radio_container {
+	border: 2px solid #000;
+	width: 25%;
+	border-radius: 8px;
+	background-color: #42f4f1;
+	height: auto;
+}
+#meat_checkbox_container {
+	border: 2px solid #000;
+	width: 25%;
+	border-radius: 8px;
+	background-color: #e84040;
+	height: auto;
+}
+#veggie_checkbox_container {
+	border: 2px solid #000;
+	width: 25%;
+	border-radius: 8px;
+	background-color: #42f4f1;
+	height: auto;
+}
+#sauce_radio_container {
+	border: 2px solid #000;
+	width: 25%;
+	border-radius: 8px;
+	background-color: #e84040;
+	height: auto;
+}
+.box_heading {
+	font-weight: 900;
+	color: #000;
+	text-align: center;
+}
+#crust_radio_container {
+	border: 2px solid #000;
+	border-radius: 8px;
+	background-color: #42f4f1;
+	height: auto;
+}
+#cheese_radio_container {
+	border: 2px solid #000;
+	border-radius: 8px;
+	background-color: #e84040;
+	height: auto;
+}
+.btn {
+	border: 2px solid #000;
+	font-weight: 900;
+}
+#check_out {
+	opacity: 0;
+	width: 500px;
+	margin: auto;
+}
